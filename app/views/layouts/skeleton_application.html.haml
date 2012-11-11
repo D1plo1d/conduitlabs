@@ -11,10 +11,4 @@
     = csrf_meta_tags
     = yield(:head)
   %body
-  .container
-    .row
-      .span12
-        = render 'layouts/messages'
-    .row
-      = yield
-  %footer
+    = yield
